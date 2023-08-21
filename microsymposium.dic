@@ -91,7 +91,7 @@ save_author.last_name
     _definition.update            2023-08-03
     _description.text
 ;
-    Author's first (given) name.
+    Author's last name.
 ;
     _name.category_id             author
     _name.object_id               last_name
