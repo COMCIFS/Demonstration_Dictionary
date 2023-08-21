@@ -68,6 +68,40 @@ save_author.id
 
 save_
 
+save_author.first_name
+
+    _definition.id                '_author.first_name'
+    _definition.update            2023-08-03
+    _description.text
+;
+    Author's first (given) name.
+;
+    _name.category_id             author
+    _name.object_id               first_name
+    _type.purpose                 Describe
+    _type.source                  Recorded
+    _type.container               Single
+    _type.contents                Text
+
+save_
+
+save_author.last_name
+
+    _definition.id                '_author.last_name'
+    _definition.update            2023-08-03
+    _description.text
+;
+    Author's first (given) name.
+;
+    _name.category_id             author
+    _name.object_id               last_name
+    _type.purpose                 Describe
+    _type.source                  Recorded
+    _type.container               Single
+    _type.contents                Text
+
+save_
+
 save_AUTHOR_LIST
 
     _definition.id                AUTHOR_LIST
