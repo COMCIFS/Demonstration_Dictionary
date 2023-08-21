@@ -398,5 +398,6 @@ save_talk.total_time
     _type.container               Single
     _type.contents                Text
     _units.code                   minutes
+    _enumeration.range            15.0:
 
 save_
