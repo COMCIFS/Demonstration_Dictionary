@@ -308,6 +308,7 @@ save_talk.speaking_time
     _type.source                  Assigned
     _type.container               Single
     _type.contents                Text
+    _units.code                   minutes
 
 save_
 
