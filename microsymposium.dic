@@ -31,6 +31,16 @@ save_MICROSY
     _name.object_id               MICROSY
 
     _description_example.case
+;
+	data_microsymposium
+
+	loop_
+	_author_list.id
+	_author_list.presentation_id
+	1 a
+	2 b
+
+;
 
 save_
 
