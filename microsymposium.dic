@@ -30,6 +30,8 @@ save_MICROSY
     _name.category_id             MICROSYMPOSIUM_DIC
     _name.object_id               MICROSY
 
+    _description.example.case
+
 save_
 
 save_AUTHOR_LIST
