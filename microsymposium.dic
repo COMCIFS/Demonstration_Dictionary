@@ -70,6 +70,25 @@ save_author_list.author_id
 
 save_
 
+
+save_author_list.email
+
+    _definition.id                '_author_list.author_email'
+    _definitieon.update           2023-08-21
+    _description.text
+;
+    Email of the presenter
+;
+    _name.category_id             author_list
+    _name.object_id               author_email
+    _name.link_item_id            author.email
+    _type.purpose                 Describe
+    _type.source                  Assigned
+    _type.container               Single
+    _type.contents                Text
+
+save_
+
 save_author_list.presentation_id
 
     _definition.id                '_author_list.presentation_id'
