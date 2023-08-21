@@ -132,7 +132,7 @@ save_author_list.author_id
 ;
     _name.category_id             author_list
     _name.object_id               author_id
-    _name.linked_item_id          author.id
+    _name.linked_item_id          '_author.id'
     _type.purpose                 Describe
     _type.source                  Assigned
     _type.container               Single
