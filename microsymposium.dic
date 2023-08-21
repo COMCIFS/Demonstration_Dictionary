@@ -57,7 +57,7 @@ save_author.id
     _definition.update            2023-08-03
     _description.text
 ;
-    Unique author name, teh category key.
+    Unique author name, the category key.
 ;
     _name.category_id             author
     _name.object_id               id
