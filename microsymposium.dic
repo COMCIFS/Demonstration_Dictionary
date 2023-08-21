@@ -103,20 +103,31 @@ save_MICROSYMPOSIUM
 
 save_
 
-save_microsymposium.date
+save_microsymposium.finish_datetime
 
     _definition.id                '_Microsymposium.date'
-    _definition.update            2023-08-03
+    _definition.update            2023-08-21
     _description.text
 ;
-    The date on which the microsymposium is held
+    The datetime at which the microsymposium finished.
+    Entries should follow the standard RFC 3339 ABNF format
+    'yyyy-mm-ddThh:mm:ss{Z|[+-]zz:zz}'.
 ;
     _name.category_id             Microsymposium
-    _name.object_id               date
-    _type.purpose                 Describe
+    _name.object_id               finish_datetime
+    _type.purpose                 Encode
     _type.source                  Assigned
     _type.container               Single
-    _type.contents                Text
+    _type.contents                DateTime
+
+    loop_
+      _description_example.case
+         1990-07-13T14:40:00Z
+         2042-12-13T02:37:23Z
+         2005-03-03T12:02:09.17+09:30
+         2015-10-30T22:45:00-02:00
+         1912-02-03T11:47:00Z
+         1979-09-01T12:00:00Z
 
 save_
 
@@ -137,20 +148,31 @@ save_microsymposium.id
 
 save_
 
-save_microsymposium.time
+save_microsymposium.start_datetime
 
-    _definition.id                '_Microsymposium.time'
-    _definition.update            2023-08-03
+    _definition.id                '_Microsymposium.date'
+    _definition.update            2023-08-21
     _description.text
 ;
-    The starting time for the microsymposium
+    The datetime at which the microsymposium started.
+    Entries should follow the standard RFC 3339 ABNF format
+    'yyyy-mm-ddThh:mm:ss{Z|[+-]zz:zz}'.
 ;
     _name.category_id             Microsymposium
-    _name.object_id               time
-    _type.purpose                 Describe
+    _name.object_id               start_datetime
+    _type.purpose                 Encode
     _type.source                  Assigned
     _type.container               Single
-    _type.contents                Text
+    _type.contents                DateTime
+
+    loop_
+      _description_example.case
+         1990-07-13T14:40:00Z
+         2042-12-13T02:37:23Z
+         2005-03-03T12:02:09.17+09:30
+         2015-10-30T22:45:00-02:00
+         1912-02-03T11:47:00Z
+         1979-09-01T12:00:00Z
 
 save_
 
